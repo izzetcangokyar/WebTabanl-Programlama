@@ -1,0 +1,12 @@
+C:\Users\emrec\Desktop\Ceylan\Ceylan.EntityLayer\bin\Debug\Ceylan.EntityLayer.dll
+C:\Users\emrec\Desktop\Ceylan\Ceylan.EntityLayer\bin\Debug\Ceylan.EntityLayer.pdb
+C:\Users\emrec\Desktop\Ceylan\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emrec\Desktop\Ceylan\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.dll
+C:\Users\emrec\Desktop\Ceylan\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.pdb
+C:\Users\emrec\Desktop\Ceylan\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.csprojAssemblyReference.cache
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.EntityLayer\bin\Debug\Ceylan.EntityLayer.dll
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.EntityLayer\bin\Debug\Ceylan.EntityLayer.pdb
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.csprojAssemblyReference.cache
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.dll
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.pdb

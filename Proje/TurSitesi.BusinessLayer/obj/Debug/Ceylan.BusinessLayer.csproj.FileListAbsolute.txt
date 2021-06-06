@@ -1,0 +1,42 @@
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.BusinessLayer.dll
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.BusinessLayer.pdb
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.dll
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.pdb
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.dll
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.EntityLayer.dll
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.pdb
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.dll.config
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.EntityLayer.pdb
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\emrec\Desktop\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csproj.CopyComplete
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.BusinessLayer.dll
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.BusinessLayer.pdb
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.dll
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.EntityLayer.dll
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.pdb
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.dll.config
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\Ceylan.EntityLayer.pdb
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csproj.CopyComplete
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.dll
+C:\Users\emrec\Desktop\Yeni klasör\Ceylan\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.pdb
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\Ceylan.BusinessLayer.dll
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\Ceylan.BusinessLayer.pdb
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.dll
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\Ceylan.EntityLayer.dll
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.pdb
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\Ceylan.DataAccessLayer.dll.config
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\Ceylan.EntityLayer.pdb
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.csproj.CopyComplete
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.dll
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.BusinessLayer\obj\Debug\Ceylan.BusinessLayer.pdb

@@ -1,0 +1,6 @@
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.EntityLayer\bin\Debug\Ceylan.EntityLayer.dll
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.EntityLayer\bin\Debug\Ceylan.EntityLayer.pdb
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.EntityLayer\obj\Debug\TurSitesi.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.dll
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.EntityLayer\obj\Debug\Ceylan.EntityLayer.pdb
+C:\Users\izzet\Desktop\TurPaneli\Ceylan.EntityLayer\obj\Debug\TurSitesi.EntityLayer.csprojAssemblyReference.cache

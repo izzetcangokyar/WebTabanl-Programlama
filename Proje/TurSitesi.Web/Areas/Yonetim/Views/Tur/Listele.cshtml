@@ -1,0 +1,51 @@
+﻿    @model List<TurSitesi.EntityLayer.Tur>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Tur Listesi</h2>
+<hr />
+
+<br />
+<a href="@Url.Action("Ekle")" , class="btn btn-primary">Ekle</a>
+<br />
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ad </th>
+            <th>Kategori</th>
+            <th>Tur Rehberi Varmı</th>
+         
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Ad</td>
+            <td>@item.kategori.Ad</td>
+            @if (item.DoluMu == true)
+            {
+        <td>
+            Evet </td> //ingilizceler türkce olsun diye yzdım
+            }
+            else
+            {
+        <td>
+            Hayır
+        </td>
+            }
+
+
+            <td>
+                <a href="@Url.Action("Sil", new { id = item.Id })" class="btn btn-xs btn-danger">Sil</a>
+                <a href="@Url.Action("Guncelle", new { id = item.Id })" class="btn btn-xs btn-info">Guncelle</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿
+@model TurSitesi.EntityLayer.Zimmet
+
+@{
+    ViewBag.Title = "Ekle";
+}
+
+<h2>Tur Görevli  Ekle</h2>
+<hr />
+@using (Html.BeginForm("Ekle", "Zimmet", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationMessage("", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Calisan.AdSoyad,"Calisan", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(x => x.CalisanId, ViewBag.Calisanlar as SelectList, "Çalışan Seçiniz", new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.CalisanId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Tur.Ad,"Turlar", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(x => x.TurId, ViewBag.Turlar as SelectList, "Tur Seçiniz", new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.TurId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-10 col-md-offset-2">
+            <a href="@Url.Action("Listele")" class="btn btn-default">İptal</a>
+            <button type="submit" class="btn btn-success">Kaydet</button>
+        </div>
+    </div>
+}
+

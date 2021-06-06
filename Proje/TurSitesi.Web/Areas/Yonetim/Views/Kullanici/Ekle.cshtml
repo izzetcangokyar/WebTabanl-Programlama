@@ -1,0 +1,60 @@
+﻿@model TurSitesi.EntityLayer.Kullanıcı
+@{
+    ViewBag.Title = "Ekle";
+}
+
+<h2>Kullanıcı Ekle</h2>
+<hr />
+@using (Html.BeginForm("Ekle", "Kullanici", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationMessage("", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.EPosta, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(x => x.EPosta, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.EPosta, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Parola, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.PasswordFor(x => x.Parola, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Parola, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Ad, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Ad, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Soyad, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(x => x.Soyad, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Soyad, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Yetki, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EnumDropDownListFor(x => x.Yetki, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Yetki, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10 col-md-offset-2">
+            <a href="@Url.Action("Listele")" class="btn btn-default">İptal</a>
+            <button type="submit" class="btn btn-success">Kaydet</button>
+        </div>
+    </div>
+}
+

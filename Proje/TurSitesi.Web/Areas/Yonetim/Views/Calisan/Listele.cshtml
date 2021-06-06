@@ -1,0 +1,35 @@
+﻿
+@model List<TurSitesi.EntityLayer.Calisan>
+@{
+    ViewBag.Title = "Listele";
+}
+
+<h2> Calisan Listele</h2>
+<hr />
+<a href="@Url.Action("Ekle")" class="btn btn-primary">Ekle</a>
+<br />
+<br />
+<table class="table table-striped">
+    <tr>
+       
+        <th>Ad</th>
+        <th>Soyad</th>
+    
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+           
+           
+            <td>@item.Ad</td>
+            <td>@item.Soyad</td>
+            
+            <td>
+                <a href="@Url.Action("Sil", new { id = item.Id })" class="btn btn-danger">Sil</a>
+                <a href="@Url.Action("Guncelle",new { id = item.Id })" class="btn btn-info">Güncelle</a>
+            </td>
+        </tr>
+    }
+</table>
+

@@ -1,0 +1,34 @@
+﻿@model TurSitesi.EntityLayer.Kullanıcı
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Giriş Yapınız</h2>
+<hr />
+@using (Html.BeginForm("Login", "Kullanici", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationMessage("", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.EPosta, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(x => x.EPosta, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.EPosta, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Parola, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.PasswordFor(x => x.Parola, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Parola, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10 col-md-offset-2">
+            <button type="submit" class="btn btn-success">Giriş</button>
+        </div>
+    </div>
+}
+

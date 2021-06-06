@@ -1,0 +1,29 @@
+﻿
+
+@model TurSitesi.EntityLayer.Zimmet
+
+@{
+    ViewBag.Title = "Sil";
+}
+
+<h2>Tur Görevli Sil</h2>
+<hr />
+@using (Html.BeginForm("Sil", "Zimmet", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+
+    @Html.AntiForgeryToken()
+    @Html.ValidationMessage("", new { @class = "text-danger" })
+
+    <div class="form-group">
+        <div class="col-md-10 col-md-offset-2">
+            <p><strong>@Model.Id </strong> adlı zimmeti silmek istiyor musunuz?</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-10 col-md-offset-2">
+            <a href="@Url.Action("Listele")" class="btn btn-default">İptal</a>
+            <button type="submit" class="btn btn-danger">Sil</button>
+        </div>
+    </div>
+}
+
